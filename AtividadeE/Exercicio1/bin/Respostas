@@ -1,0 +1,8 @@
+1)objeto é a instanciação de uma abstração, ou seja, a sua efetividade.
+  classe é o modelo no qual a abstração será definida colocando seus atributos e comportamentos
+2)atributo é uma caracteristica que classe tem e um metodo é um comportamento que ela possa ter
+4)a)sim pois uma conta, por lógica, tem que estar vinculada a um usuário
+  b)sim, vetor
+5)aluno,professor,disciplina,turma,boletim
+6)atributos:nome do usuario,pontos,data de entrada,posicao no ranking
+  metodos:estado no jogo,correr,pular,ganhar pontos
