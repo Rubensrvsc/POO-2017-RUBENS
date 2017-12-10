@@ -1,0 +1,7 @@
+5) nao pois quando a pessoa assina o contrato com a classe abtrata ela
+ é obrigada implementar os metodos abstratos
+6)O motivo do metodo atualiza existir é para que as classes filhas implementen
+ de forma como desejar
+7)sim
+8)Porque são criadas 10 referencias para Conta e não a conta o abjeto Contas
+		 
