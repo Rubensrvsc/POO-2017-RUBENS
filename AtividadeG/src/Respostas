@@ -1,0 +1,6 @@
+1)Não, pois o que uma classe abstrata proporciona é uma serie de comportamentos para serem implementados na hirarquia de classes
+
+2)É necessário que a classeConcreta extenda de ClasseAbstrata
+
+3)Pode ocorrer um erro caso os metodos da classe abstrata fore colocados como abstratos, mas também pode não ocorre erro caso os
+metodos da classe abstrata não esteja marcado como abstrato
