@@ -4,3 +4,5 @@
 
 3)Pode ocorrer um erro caso os metodos da classe abstrata fore colocados como abstratos, mas também pode não ocorre erro caso os
 metodos da classe abstrata não esteja marcado como abstrato
+
+7)Porque no new FiguraGeometrica[10] são criadas 10 eferencia para classes que extendam de FiguraGeometrica
