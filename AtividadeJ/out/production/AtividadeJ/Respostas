@@ -1,0 +1,3 @@
+Desafio:
+1)Caso a memoria da JVM já esteja toda ocupada o java ira disparar uma exception checada
+  indicando falta de menória
