@@ -3,9 +3,9 @@ package model;
 public class Conta implements Comparable<Conta>{
 	private double saldo;
 	private String titular;
-	/*public Conta(double saldo) {
+	public Conta(double saldo) {
 		this.saldo = saldo;
-	}*/
+	}
 	
 	public void deposita(double valor){
 		this.saldo+=valor;

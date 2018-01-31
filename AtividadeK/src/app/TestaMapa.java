@@ -6,10 +6,10 @@ import model.*;
 public class TestaMapa {
 
     public static void main(String[] args) {
-        Conta c1 = new ContaCorrente();
+        Conta c1 = new ContaCorrente(100);
         c1.deposita(10000);
 
-        Conta c2 = new ContaCorrente();
+        Conta c2 = new ContaCorrente(120);
         c2.deposita(3000);
 
         // cria o mapa
