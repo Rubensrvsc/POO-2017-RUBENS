@@ -1,0 +1,96 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:52739318030314358",
+      "lastPropertyId": "5:2951707173314896749",
+      "name": "Aluno",
+      "properties": [
+        {
+          "id": "1:3081514861105011248",
+          "name": "id"
+        },
+        {
+          "id": "2:6114780023512930355",
+          "name": "nome"
+        },
+        {
+          "id": "3:2933543641207144534",
+          "name": "sexo"
+        },
+        {
+          "id": "4:8479275326887787462",
+          "name": "serie"
+        },
+        {
+          "id": "5:2951707173314896749",
+          "indexId": "1:1579926690477754872",
+          "name": "escolaId"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:8875974413779027721",
+      "lastPropertyId": "4:4338496274676374707",
+      "name": "Disciplinas",
+      "properties": [
+        {
+          "id": "1:762682501002330296",
+          "name": "id"
+        },
+        {
+          "id": "2:4762513960242080293",
+          "name": "nome"
+        },
+        {
+          "id": "3:7050823491032541020",
+          "name": "notaMensal"
+        },
+        {
+          "id": "4:4338496274676374707",
+          "name": "nomeProfessor"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:8284852176312245198",
+      "lastPropertyId": "3:1208145097022645897",
+      "name": "Escola",
+      "properties": [
+        {
+          "id": "1:5399377330418352031",
+          "name": "id"
+        },
+        {
+          "id": "2:8883282658606706285",
+          "name": "nome"
+        },
+        {
+          "id": "3:1208145097022645897",
+          "name": "mediaEscolar"
+        }
+      ],
+      "relations": [
+        {
+          "id": "1:6965672031159456587",
+          "name": "disciplinas"
+        }
+      ]
+    }
+  ],
+  "lastEntityId": "3:8284852176312245198",
+  "lastIndexId": "1:1579926690477754872",
+  "lastRelationId": "1:6965672031159456587",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

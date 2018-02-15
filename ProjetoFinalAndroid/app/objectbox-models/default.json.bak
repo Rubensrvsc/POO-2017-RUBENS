@@ -1,0 +1,58 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:52739318030314358",
+      "lastPropertyId": "1:3081514861105011248",
+      "name": "Aluno",
+      "properties": [
+        {
+          "id": "1:3081514861105011248",
+          "name": "id"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:8875974413779027721",
+      "lastPropertyId": "1:762682501002330296",
+      "name": "Disciplinas",
+      "properties": [
+        {
+          "id": "1:762682501002330296",
+          "name": "id"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:8284852176312245198",
+      "lastPropertyId": "2:8883282658606706285",
+      "name": "Escola",
+      "properties": [
+        {
+          "id": "1:5399377330418352031",
+          "name": "id"
+        },
+        {
+          "id": "2:8883282658606706285",
+          "name": "nome"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:8284852176312245198",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
